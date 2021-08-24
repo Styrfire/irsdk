@@ -1,0 +1,7 @@
+﻿  irsdk_client.cpp
+  yaml_parser.cpp
+  console.cpp
+  lapTiming.cpp
+  irsdk_utils.cpp
+  Generating Code...
+  lapTiming.vcxproj -> C:\Users\g_n_r\source\repos\irsdk 1.15\irsdk\irsdk_lapTiming\x64\Debug\irsdk_lapTiming.exe

@@ -1,0 +1,957 @@
+ irsdk_csv2ibt
+
+ Timestamp is 612148f1 (Sat Aug 21 13:41:53 2021)
+
+ Preferred load address is 0000000140000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001930H .text$di                CODE
+ 0001:00001930 000071c0H .text$mn                CODE
+ 0001:00008af0 00001040H .text$mn$00             CODE
+ 0001:00009b30 00001070H .text$x                 CODE
+ 0001:0000aba0 0000101aH .text$yd                CODE
+ 0002:00000000 00000110H .CRT$XCA                DATA
+ 0002:00000110 00000110H .CRT$XCAA               DATA
+ 0002:00000220 00000110H .CRT$XCU                DATA
+ 0002:00000330 00000110H .CRT$XCZ                DATA
+ 0002:00000440 00000110H .CRT$XIA                DATA
+ 0002:00000550 00000110H .CRT$XIAA               DATA
+ 0002:00000660 00000110H .CRT$XIAC               DATA
+ 0002:00000770 00000110H .CRT$XIC                DATA
+ 0002:00000880 00000110H .CRT$XIZ                DATA
+ 0002:00000990 00000008H .CRT$XLA                DATA
+ 0002:00000998 00000008H .CRT$XLZ                DATA
+ 0002:000009a0 00000110H .CRT$XPA                DATA
+ 0002:00000ab0 00000110H .CRT$XPZ                DATA
+ 0002:00000bc0 00000110H .CRT$XTA                DATA
+ 0002:00000cd0 00000110H .CRT$XTZ                DATA
+ 0002:00000de0 00000820H .rdata                  DATA
+ 0002:00001600 00000110H .rdata$CastGuardVftablesA DATA
+ 0002:00001710 00000110H .rdata$CastGuardVftablesC DATA
+ 0002:00001820 00000130H .rdata$T                DATA
+ 0002:00001950 00000348H .rdata$r                DATA
+ 0002:00001c98 000001a0H .rdata$zzzdbg           DATA
+ 0002:00001e38 00000110H .rtc$IAA                DATA
+ 0002:00001f48 00000110H .rtc$IZZ                DATA
+ 0002:00002058 00000110H .rtc$TAA                DATA
+ 0002:00002168 00000110H .rtc$TZZ                DATA
+ 0002:00002278 00000748H .xdata                  DATA
+ 0002:000029c0 0000020aH .xdata$x                DATA
+ 0002:00002bca 00000000H .edata                  DATA
+ 0003:00000000 00000180H .data                   DATA
+ 0003:00000180 000001a0H .data$r                 DATA
+ 0003:00000320 00000130H .data$rs                DATA
+ 0003:00000450 00026f81H .bss                    DATA
+ 0004:00000000 0000072cH .pdata                  DATA
+ 0005:00000000 000007f0H .idata$5                DATA
+ 0005:000007f0 00000104H .idata$2                DATA
+ 0005:000008f4 00000014H .idata$3                DATA
+ 0005:00000908 000007f0H .idata$4                DATA
+ 0005:000010f8 00000a06H .idata$6                DATA
+ 0006:00000000 00000104H .tls                    DATA
+ 0006:00000104 00000104H .tls$                   DATA
+ 0006:00000208 00000101H .tls$ZZZ                DATA
+ 0007:00000000 00000151H .00cfg                  DATA
+ 0008:00000000 00000170H .rsrc$01                DATA
+ 0008:00000170 000002ccH .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __volatile_metadata        0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000100       __guard_flags              0000000000000100     <absolute>
+ 0000:00000000       __ImageBase                0000000140000000     <linker-defined>
+ 0001:00001930       ?parseYaml@@YA_NPEBD0PEAPEBDPEAH@Z 0000000140002930 f   yaml_parser.obj
+ 0001:00001e60       ?openUniqueFile@@YAPEAU_iobuf@@PEBD0_N@Z 0000000140002e60 f   csv2ibt.obj
+ 0001:00002000       ?logHeaderToIBT@@YAXPEAVirsdkCSVClient@@PEAU_iobuf@@@Z 0000000140003000 f   csv2ibt.obj
+ 0001:00002270       ?logDataToIBT@@YAXPEAVirsdkCSVClient@@PEAU_iobuf@@@Z 0000000140003270 f   csv2ibt.obj
+ 0001:000023d0       ?logCloseIBT@@YAXPEAU_iobuf@@@Z 00000001400033d0 f   csv2ibt.obj
+ 0001:00002420       ?init@@YA_NPEAD@Z          0000000140003420 f   csv2ibt.obj
+ 0001:00002510       ?process@@YAXXZ            0000000140003510 f   csv2ibt.obj
+ 0001:00002550       ?shutdown@@YAXXZ           0000000140003550 f   csv2ibt.obj
+ 0001:000025a0       main                       00000001400035a0 f   csv2ibt.obj
+ 0001:00002820       ??0irsdkCSVClient@@QEAA@XZ 0000000140003820 f i csv2ibt.obj
+ 0001:00002900       ??1irsdkCSVClient@@QEAA@XZ 0000000140003900 f i csv2ibt.obj
+ 0001:00002920       ?getVarArray@irsdkCSVClient@@QEAAPEBMXZ 0000000140003920 f i csv2ibt.obj
+ 0001:00002940       ?getVarCount@irsdkCSVClient@@QEAAHXZ 0000000140003940 f i csv2ibt.obj
+ 0001:00002950       ?getVarHeaders@irsdkCSVClient@@QEAAPEBUirsdk_varHeader@@XZ 0000000140003950 f i csv2ibt.obj
+ 0001:00002970       ?getYAMLStr@irsdkCSVClient@@QEAAPEBDXZ 0000000140003970 f i csv2ibt.obj
+ 0001:00002990       ?strrchr@@YAPEADQEADH@Z    0000000140003990 f i csv2ibt.obj
+ 0001:000029c0       __local_stdio_printf_options 00000001400039c0 f i csv2ibt.obj
+ 0001:000029d0       _snprintf                  00000001400039d0 f i csv2ibt.obj
+ 0001:00002a40       _vfprintf_l                0000000140003a40 f i csv2ibt.obj
+ 0001:00002aa0       _vsnprintf                 0000000140003aa0 f i csv2ibt.obj
+ 0001:00002af0       _vsnprintf_l               0000000140003af0 f i csv2ibt.obj
+ 0001:00002b90       printf                     0000000140003b90 f i csv2ibt.obj
+ 0001:00002c50       ?irsdk_startup@@YA_NXZ     0000000140003c50 f   irsdk_utils.obj
+ 0001:00002d50       ?irsdk_shutdown@@YAXXZ     0000000140003d50 f   irsdk_utils.obj
+ 0001:00002df0       ?irsdk_getNewData@@YA_NPEAD@Z 0000000140003df0 f   irsdk_utils.obj
+ 0001:00002ff0       ?irsdk_waitForDataReady@@YA_NHPEAD@Z 0000000140003ff0 f   irsdk_utils.obj
+ 0001:00003080       ?irsdk_isConnected@@YA_NXZ 0000000140004080 f   irsdk_utils.obj
+ 0001:00003100       ?irsdk_getHeader@@YAPEBUirsdk_header@@XZ 0000000140004100 f   irsdk_utils.obj
+ 0001:00003120       ?irsdk_getData@@YAPEBDH@Z  0000000140004120 f   irsdk_utils.obj
+ 0001:00003160       ?irsdk_getSessionInfoStr@@YAPEBDXZ 0000000140004160 f   irsdk_utils.obj
+ 0001:00003190       ?irsdk_getSessionInfoStrUpdate@@YAHXZ 0000000140004190 f   irsdk_utils.obj
+ 0001:000031c0       ?irsdk_getVarHeaderPtr@@YAPEBUirsdk_varHeader@@XZ 00000001400041c0 f   irsdk_utils.obj
+ 0001:000031f0       ?irsdk_getVarHeaderEntry@@YAPEBUirsdk_varHeader@@H@Z 00000001400041f0 f   irsdk_utils.obj
+ 0001:00003250       ?irsdk_varNameToIndex@@YAHPEBD@Z 0000000140004250 f   irsdk_utils.obj
+ 0001:000032e0       ?irsdk_varNameToOffset@@YAHPEBD@Z 00000001400042e0 f   irsdk_utils.obj
+ 0001:00003370       ?irsdk_broadcastMsg@@YAXW4irsdk_BroadcastMsg@@HHH@Z 0000000140004370 f   irsdk_utils.obj
+ 0001:000033d0       ?irsdk_broadcastMsg@@YAXW4irsdk_BroadcastMsg@@HH@Z 00000001400043d0 f   irsdk_utils.obj
+ 0001:000034a0       ?irsdk_broadcastMsg@@YAXW4irsdk_BroadcastMsg@@HM@Z 00000001400044a0 f   irsdk_utils.obj
+ 0001:000034f0       ?irsdk_padCarNum@@YAHHH@Z  00000001400044f0 f   irsdk_utils.obj
+ 0001:00003560       ?irsdk_getBroadcastMsgID@@YAIXZ 0000000140004560 f   irsdk_utils.obj
+ 0001:00003840       ?openFile@irsdkCSVClient@@QEAA_NPEBD@Z 0000000140004840 f   irsdk_csvclient.obj
+ 0001:00004210       ?closeFile@irsdkCSVClient@@QEAAXXZ 0000000140005210 f   irsdk_csvclient.obj
+ 0001:000042f0       ?getNextData@irsdkCSVClient@@QEAA_NXZ 00000001400052f0 f   irsdk_csvclient.obj
+ 0001:000043c0       ?getVarIdx@irsdkCSVClient@@QEAAHPEBD@Z 00000001400053c0 f   irsdk_csvclient.obj
+ 0001:00004450       ?getVarFloat@irsdkCSVClient@@QEAAMH@Z 0000000140005450 f   irsdk_csvclient.obj
+ 0001:000044e0       ?parseDataLine@irsdkCSVClient@@IEAA_NPEAD@Z 00000001400054e0 f   irsdk_csvclient.obj
+ 0001:000046a0       ?parceNameAndUnit@irsdkCSVClient@@IEAAXPEBDAEAUirsdk_varHeader@@AEAH@Z 00000001400056a0 f   irsdk_csvclient.obj
+ 0001:000048a0       ?getLineType@irsdkCSVClient@@IEAA?AW4line_type@1@PEBDAEA_N11111@Z 00000001400058a0 f   irsdk_csvclient.obj
+ 0001:00004d80       ?stripEnds@irsdkCSVClient@@IEAAPEADPEAD@Z 0000000140005d80 f   irsdk_csvclient.obj
+ 0001:00004e80       ?getNextElement@irsdkCSVClient@@IEAAPEADPEAD@Z 0000000140005e80 f   irsdk_csvclient.obj
+ 0001:00004fd0       ?strToFloat@irsdkCSVClient@@IEAAMPEBD@Z 0000000140005fd0 f   irsdk_csvclient.obj
+ 0001:00005680       ?strchr@@YAPEADQEADH@Z     0000000140006680 f i irsdk_csvclient.obj
+ 0001:000056a8       CloseHandle                00000001400066a8 f   kernel32:KERNEL32.dll
+ 0001:000056ae       WaitForSingleObject        00000001400066ae f   kernel32:KERNEL32.dll
+ 0001:000056b4       OpenEventA                 00000001400066b4 f   kernel32:KERNEL32.dll
+ 0001:000056ba       Sleep                      00000001400066ba f   kernel32:KERNEL32.dll
+ 0001:000056c0       MapViewOfFile              00000001400066c0 f   kernel32:KERNEL32.dll
+ 0001:000056c6       UnmapViewOfFile            00000001400066c6 f   kernel32:KERNEL32.dll
+ 0001:000056cc       OpenFileMappingA           00000001400066cc f   kernel32:KERNEL32.dll
+ 0001:000056d2       RegisterWindowMessageA     00000001400066d2 f   user32:USER32.dll
+ 0001:000056d8       SendNotifyMessageA         00000001400066d8 f   user32:USER32.dll
+ 0001:000056e0       ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 00000001400066e0 f i MSVCRT:utility.obj
+ 0001:00005758       ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 0000000140006758 f i MSVCRT:utility.obj
+ 0001:0000579c       NtCurrentTeb               000000014000679c f i MSVCRT:utility.obj
+ 0001:000057a8       __scrt_acquire_startup_lock 00000001400067a8 f   MSVCRT:utility.obj
+ 0001:000057f0       __scrt_dllmain_after_initialize_c 00000001400067f0 f   MSVCRT:utility.obj
+ 0001:00005834       __scrt_dllmain_before_initialize_c 0000000140006834 f   MSVCRT:utility.obj
+ 0001:00005850       __scrt_dllmain_crt_thread_attach 0000000140006850 f   MSVCRT:utility.obj
+ 0001:00005884       __scrt_dllmain_crt_thread_detach 0000000140006884 f   MSVCRT:utility.obj
+ 0001:000058a0       __scrt_dllmain_exception_filter 00000001400068a0 f   MSVCRT:utility.obj
+ 0001:00005918       __scrt_dllmain_uninitialize_c 0000000140006918 f   MSVCRT:utility.obj
+ 0001:00005954       __scrt_dllmain_uninitialize_critical 0000000140006954 f   MSVCRT:utility.obj
+ 0001:00005970       __scrt_initialize_crt      0000000140006970 f   MSVCRT:utility.obj
+ 0001:000059cc       __scrt_initialize_onexit_tables 00000001400069cc f   MSVCRT:utility.obj
+ 0001:00005a7c       __scrt_is_nonwritable_in_current_image 0000000140006a7c f   MSVCRT:utility.obj
+ 0001:00005b3c       __scrt_release_startup_lock 0000000140006b3c f   MSVCRT:utility.obj
+ 0001:00005b6c       __scrt_uninitialize_crt    0000000140006b6c f   MSVCRT:utility.obj
+ 0001:00005ba0       _onexit                    0000000140006ba0 f   MSVCRT:utility.obj
+ 0001:00005be8       at_quick_exit              0000000140006be8 f   MSVCRT:utility.obj
+ 0001:00005c0c       atexit                     0000000140006c0c f   MSVCRT:utility.obj
+ 0001:00005c28       __raise_securityfailure    0000000140006c28 f   MSVCRT:gs_report.obj
+ 0001:00005c6c       __report_gsfailure         0000000140006c6c f   MSVCRT:gs_report.obj
+ 0001:00005d74       __report_rangecheckfailure 0000000140006d74 f   MSVCRT:gs_report.obj
+ 0001:00005d8c       __report_securityfailure   0000000140006d8c f   MSVCRT:gs_report.obj
+ 0001:00005e50       __report_securityfailureEx 0000000140006e50 f   MSVCRT:gs_report.obj
+ 0001:000060bc       __GSHandlerCheck           00000001400070bc f   MSVCRT:gshandler.obj
+ 0001:000060e0       __GSHandlerCheckCommon     00000001400070e0 f   MSVCRT:gshandler.obj
+ 0001:00006170       __security_check_cookie    0000000140007170 f   MSVCRT:amdsecgs.obj
+ 0001:000063b8       _Init_thread_abort         00000001400073b8 f   MSVCRT:thread_safe_statics.obj
+ 0001:000063f4       _Init_thread_footer        00000001400073f4 f   MSVCRT:thread_safe_statics.obj
+ 0001:0000646c       _Init_thread_header        000000014000746c f   MSVCRT:thread_safe_statics.obj
+ 0001:000064ec       _Init_thread_lock          00000001400074ec f   MSVCRT:thread_safe_statics.obj
+ 0001:00006500       _Init_thread_notify        0000000140007500 f   MSVCRT:thread_safe_statics.obj
+ 0001:00006554       _Init_thread_unlock        0000000140007554 f   MSVCRT:thread_safe_statics.obj
+ 0001:00006568       _Init_thread_wait          0000000140007568 f   MSVCRT:thread_safe_statics.obj
+ 0001:000065e4       ??_U@YAPEAX_K@Z            00000001400075e4 f   MSVCRT:new_array.obj
+ 0001:000065ec       ??_V@YAXPEAX@Z             00000001400075ec f   MSVCRT:delete_array.obj
+ 0001:00006610       __chkstk                   0000000140007610 f   MSVCRT:chkstk.obj
+ 0001:00006610       _alloca_probe              0000000140007610 f   MSVCRT:chkstk.obj
+ 0001:000069c8       ?set_app_type@__scrt_main_policy@@SAXXZ 00000001400079c8 f i MSVCRT:exe_main.obj
+ 0001:000069d4       ?set_commode@__scrt_file_policy@@SAXXZ 00000001400079d4 f i MSVCRT:exe_main.obj
+ 0001:000069f4       ?set_fmode@__scrt_file_policy@@SAXXZ 00000001400079f4 f i MSVCRT:exe_main.obj
+ 0001:00006a10       mainCRTStartup             0000000140007a10 f   MSVCRT:exe_main.obj
+ 0001:00006a28       __isa_available_init       0000000140007a28 f   MSVCRT:cpu_disp.obj
+ 0001:00006c34       _get_startup_argv_mode     0000000140007c34 f   MSVCRT:argv_mode.obj
+ 0001:00006c3c       __scrt_is_ucrt_dll_in_use  0000000140007c3c f   MSVCRT:ucrt_detection.obj
+ 0001:00006c4c       __crt_debugger_hook        0000000140007c4c f   MSVCRT:utility_desktop.obj
+ 0001:00006c58       __scrt_fastfail            0000000140007c58 f   MSVCRT:utility_desktop.obj
+ 0001:00006df8       __scrt_get_show_window_mode 0000000140007df8 f   MSVCRT:utility_desktop.obj
+ 0001:00006e40       __scrt_initialize_mta      0000000140007e40 f   MSVCRT:utility_desktop.obj
+ 0001:00006e48       __scrt_initialize_winrt    0000000140007e48 f   MSVCRT:utility_desktop.obj
+ 0001:00006e4c       __scrt_is_managed_app      0000000140007e4c f   MSVCRT:utility_desktop.obj
+ 0001:00006eb4       __scrt_set_unhandled_exception_filter 0000000140007eb4 f   MSVCRT:utility_desktop.obj
+ 0001:00006ec8       __scrt_stub_for_initialize_mta 0000000140007ec8 f   MSVCRT:utility_desktop.obj
+ 0001:00006ec8       __scrt_exe_initialize_mta  0000000140007ec8 f   MSVCRT:utility_desktop.obj
+ 0001:00006ecc       __scrt_unhandled_exception_filter 0000000140007ecc f   MSVCRT:utility_desktop.obj
+ 0001:00006f40       _guard_check_icall_nop     0000000140007f40 f i MSVCRT:guard_support.obj
+ 0001:00006f44       ReadNoFence64              0000000140007f44 f i MSVCRT:guard_support.obj
+ 0001:00006f48       ReadPointerNoFence         0000000140007f48 f i MSVCRT:guard_support.obj
+ 0001:00006f4c       __castguard_check_failure_debugbreak 0000000140007f4c f i MSVCRT:guard_support.obj
+ 0001:00006f70       __castguard_check_failure_fastfail 0000000140007f70 f i MSVCRT:guard_support.obj
+ 0001:00006f9c       __castguard_check_failure_nop 0000000140007f9c f i MSVCRT:guard_support.obj
+ 0001:00006fa0       __castguard_check_failure_os_handled 0000000140007fa0 f i MSVCRT:guard_support.obj
+ 0001:00007014       __castguard_slow_path_check_debugbreak 0000000140008014 f i MSVCRT:guard_support.obj
+ 0001:00007058       __castguard_slow_path_check_fastfail 0000000140008058 f i MSVCRT:guard_support.obj
+ 0001:000070a0       __castguard_slow_path_check_nop 00000001400080a0 f i MSVCRT:guard_support.obj
+ 0001:000070a4       __castguard_slow_path_check_os_handled 00000001400080a4 f i MSVCRT:guard_support.obj
+ 0001:00007130       _guard_icall_checks_enforced 0000000140008130 f i MSVCRT:guard_support.obj
+ 0001:0000714c       _guard_rf_checks_enforced  000000014000814c f i MSVCRT:guard_support.obj
+ 0001:00007150       ??2@YAPEAX_K@Z             0000000140008150 f   MSVCRT:new_scalar.obj
+ 0001:0000719c       ??3@YAXPEAX@Z              000000014000819c f   MSVCRT:delete_scalar.obj
+ 0001:0000722c       __security_init_cookie     000000014000822c f   MSVCRT:gs_support.obj
+ 0001:00007304       _matherr                   0000000140008304 f   MSVCRT:matherr.obj
+ 0001:00007308       _get_startup_commit_mode   0000000140008308 f   MSVCRT:commit_mode.obj
+ 0001:0000730c       _get_startup_file_mode     000000014000830c f   MSVCRT:file_mode.obj
+ 0001:00007314       _get_startup_new_mode      0000000140008314 f   MSVCRT:new_mode.obj
+ 0001:00007318       _get_startup_thread_locale_mode 0000000140008318 f   MSVCRT:thread_locale.obj
+ 0001:0000731c       ?__scrt_initialize_type_info@@YAXXZ 000000014000831c f   MSVCRT:tncleanup.obj
+ 0001:00007330       ?__scrt_uninitialize_type_info@@YAXXZ 0000000140008330 f   MSVCRT:tncleanup.obj
+ 0001:00007340       _should_initialize_environment 0000000140008340 f   MSVCRT:env_mode.obj
+ 0001:00007344       _initialize_invalid_parameter_handler 0000000140008344 f   MSVCRT:invalid_parameter_handler.obj
+ 0001:00007348       _initialize_denormal_control 0000000140008348 f   MSVCRT:denormal_control.obj
+ 0001:0000734c       __local_stdio_scanf_options 000000014000834c f i MSVCRT:default_local_stdio_options.obj
+ 0001:00007358       __scrt_initialize_default_local_stdio_options 0000000140008358 f   MSVCRT:default_local_stdio_options.obj
+ 0001:0000737c       __scrt_is_user_matherr_present 000000014000837c f   MSVCRT:matherr_detection.obj
+ 0001:0000738c       __scrt_get_dyn_tls_init_callback 000000014000838c f   MSVCRT:dyn_tls_init.obj
+ 0001:00007398       __scrt_get_dyn_tls_dtor_callback 0000000140008398 f   MSVCRT:dyn_tls_dtor.obj
+ 0001:000073a4       _RTC_Initialize            00000001400083a4 f   MSVCRT:initsect.obj
+ 0001:000073f0       _RTC_Terminate             00000001400083f0 f   MSVCRT:initsect.obj
+ 0001:00007440       ??0bad_alloc@std@@AEAA@QEBD@Z 0000000140008440 f i MSVCRT:throw_bad_alloc.obj
+ 0001:0000745c       ??0bad_alloc@std@@QEAA@AEBV01@@Z 000000014000845c f i MSVCRT:throw_bad_alloc.obj
+ 0001:000074a8       ??0bad_alloc@std@@QEAA@XZ  00000001400084a8 f i MSVCRT:throw_bad_alloc.obj
+ 0001:000074d0       ??0bad_array_new_length@std@@QEAA@AEBV01@@Z 00000001400084d0 f i MSVCRT:throw_bad_alloc.obj
+ 0001:0000751c       ??0bad_array_new_length@std@@QEAA@XZ 000000014000851c f i MSVCRT:throw_bad_alloc.obj
+ 0001:00007544       ??0exception@std@@QEAA@AEBV01@@Z 0000000140008544 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00007584       ??0exception@std@@QEAA@QEBDH@Z 0000000140008584 f i MSVCRT:throw_bad_alloc.obj
+ 0001:000075a0       ??1bad_alloc@std@@UEAA@XZ  00000001400085a0 f i MSVCRT:throw_bad_alloc.obj
+ 0001:000075b8       ??1bad_array_new_length@std@@UEAA@XZ 00000001400085b8 f i MSVCRT:throw_bad_alloc.obj
+ 0001:000075d0       ??1exception@std@@UEAA@XZ  00000001400085d0 f i MSVCRT:throw_bad_alloc.obj
+ 0001:000075e8       ??_Gbad_alloc@std@@UEAAPEAXI@Z 00000001400085e8 f i MSVCRT:throw_bad_alloc.obj
+ 0001:000075e8       ??_Ebad_alloc@std@@UEAAPEAXI@Z 00000001400085e8 f i MSVCRT:throw_bad_alloc.obj
+ 0001:0000763c       ??_Gbad_array_new_length@std@@UEAAPEAXI@Z 000000014000863c f i MSVCRT:throw_bad_alloc.obj
+ 0001:0000763c       ??_Ebad_array_new_length@std@@UEAAPEAXI@Z 000000014000863c f i MSVCRT:throw_bad_alloc.obj
+ 0001:00007690       ??_Eexception@std@@UEAAPEAXI@Z 0000000140008690 f i MSVCRT:throw_bad_alloc.obj
+ 0001:00007690       ??_Gexception@std@@UEAAPEAXI@Z 0000000140008690 f i MSVCRT:throw_bad_alloc.obj
+ 0001:000076e4       ?__scrt_throw_std_bad_alloc@@YAXXZ 00000001400086e4 f   MSVCRT:throw_bad_alloc.obj
+ 0001:0000770c       ?__scrt_throw_std_bad_array_new_length@@YAXXZ 000000014000870c f   MSVCRT:throw_bad_alloc.obj
+ 0001:00007734       ?what@exception@std@@UEBAPEBDXZ 0000000140008734 f i MSVCRT:throw_bad_alloc.obj
+ 0001:0000774c       ??3@YAXPEAX_K@Z            000000014000874c f   MSVCRT:delete_scalar_size.obj
+ 0001:00007754       ??1type_info@@UEAA@XZ      0000000140008754 f   MSVCRT:std_type_info_static.obj
+ 0001:00007764       ??_Etype_info@@UEAAPEAXI@Z 0000000140008764 f i MSVCRT:std_type_info_static.obj
+ 0001:00007764       ??_Gtype_info@@UEAAPEAXI@Z 0000000140008764 f i MSVCRT:std_type_info_static.obj
+ 0001:00007799       memcpy                     0000000140008799 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000779f       memset                     000000014000879f f   vcruntime:VCRUNTIME140.dll
+ 0001:000077a5       strrchr                    00000001400087a5 f   vcruntime:VCRUNTIME140.dll
+ 0001:000077ab       __CxxFrameHandler4         00000001400087ab f   vcruntime:VCRUNTIME140_1.dll
+ 0001:000077b1       strchr                     00000001400087b1 f   vcruntime:VCRUNTIME140.dll
+ 0001:000077b7       __C_specific_handler       00000001400087b7 f   vcruntime:VCRUNTIME140.dll
+ 0001:000077bd       __current_exception        00000001400087bd f   vcruntime:VCRUNTIME140.dll
+ 0001:000077c3       __current_exception_context 00000001400087c3 f   vcruntime:VCRUNTIME140.dll
+ 0001:000077c9       __std_type_info_destroy_list 00000001400087c9 f   vcruntime:VCRUNTIME140.dll
+ 0001:000077cf       __std_exception_copy       00000001400087cf f   vcruntime:VCRUNTIME140.dll
+ 0001:000077d5       __std_exception_destroy    00000001400087d5 f   vcruntime:VCRUNTIME140.dll
+ 0001:000077db       _CxxThrowException         00000001400087db f   vcruntime:VCRUNTIME140.dll
+ 0001:000077e1       strncmp                    00000001400087e1 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:000077e7       strlen                     00000001400087e7 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:000077ed       __acrt_iob_func            00000001400087ed f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:000077f3       fclose                     00000001400087f3 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:000077f9       fopen                      00000001400087f9 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:000077ff       fseek                      00000001400087ff f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:00007805       ftell                      0000000140008805 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:0000780b       fwrite                     000000014000880b f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:00007811       __stdio_common_vfprintf    0000000140008811 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:00007817       __stdio_common_vsprintf    0000000140008817 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:0000781d       _time64                    000000014000881d f   ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0001:00007823       _difftime64                0000000140008823 f   ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0001:00007829       fgets                      0000000140008829 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:0000782f       strcat                     000000014000882f f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:00007835       strcmp                     0000000140008835 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000783b       strncpy                    000000014000883b f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:00007841       atof                       0000000140008841 f   ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0001:00007847       isalpha                    0000000140008847 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000784d       isalnum                    000000014000884d f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:00007853       _wassert                   0000000140008853 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00007859       _seh_filter_dll            0000000140008859 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000785f       _configure_narrow_argv     000000014000885f f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00007865       _initialize_narrow_environment 0000000140008865 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000786b       _initialize_onexit_table   000000014000886b f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00007871       _register_onexit_function  0000000140008871 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00007877       _execute_onexit_table      0000000140008877 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000787d       _crt_atexit                000000014000887d f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00007883       _crt_at_quick_exit         0000000140008883 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00007889       _cexit                     0000000140008889 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000788f       _seh_filter_exe            000000014000888f f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00007895       _set_app_type              0000000140008895 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000789b       __setusermatherr           000000014000889b f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:000078a1       _get_initial_narrow_environment 00000001400088a1 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000078a7       _initterm                  00000001400088a7 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000078ad       _initterm_e                00000001400088ad f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000078b3       exit                       00000001400088b3 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000078b9       _exit                      00000001400088b9 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000078bf       _set_fmode                 00000001400088bf f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:000078c5       __p___argc                 00000001400088c5 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000078cb       __p___argv                 00000001400088cb f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000078d1       _c_exit                    00000001400088d1 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000078d7       _register_thread_local_exe_atexit_callback 00000001400088d7 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000078dd       _configthreadlocale        00000001400088dd f   ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0001:000078e3       _set_new_mode              00000001400088e3 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:000078e9       __p__commode               00000001400088e9 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:000078ef       terminate                  00000001400088ef f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000078f5       _callnewh                  00000001400088f5 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:000078fb       malloc                     00000001400088fb f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:00007901       free                       0000000140008901 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:00007907       _getch                     0000000140008907 f   ucrt:api-ms-win-crt-conio-l1-1-0.dll
+ 0001:0000790d       RtlCaptureContext          000000014000890d f   kernel32:KERNEL32.dll
+ 0001:00007913       RtlLookupFunctionEntry     0000000140008913 f   kernel32:KERNEL32.dll
+ 0001:00007919       RtlVirtualUnwind           0000000140008919 f   kernel32:KERNEL32.dll
+ 0001:0000791f       UnhandledExceptionFilter   000000014000891f f   kernel32:KERNEL32.dll
+ 0001:00007925       SetUnhandledExceptionFilter 0000000140008925 f   kernel32:KERNEL32.dll
+ 0001:0000792b       GetCurrentProcess          000000014000892b f   kernel32:KERNEL32.dll
+ 0001:00007931       TerminateProcess           0000000140008931 f   kernel32:KERNEL32.dll
+ 0001:00007937       IsProcessorFeaturePresent  0000000140008937 f   kernel32:KERNEL32.dll
+ 0001:0000793d       EnterCriticalSection       000000014000893d f   kernel32:KERNEL32.dll
+ 0001:00007943       LeaveCriticalSection       0000000140008943 f   kernel32:KERNEL32.dll
+ 0001:00007949       InitializeCriticalSectionAndSpinCount 0000000140008949 f   kernel32:KERNEL32.dll
+ 0001:0000794f       DeleteCriticalSection      000000014000894f f   kernel32:KERNEL32.dll
+ 0001:00007955       SetEvent                   0000000140008955 f   kernel32:KERNEL32.dll
+ 0001:0000795b       ResetEvent                 000000014000895b f   kernel32:KERNEL32.dll
+ 0001:00007961       WaitForSingleObjectEx      0000000140008961 f   kernel32:KERNEL32.dll
+ 0001:00007967       CreateEventW               0000000140008967 f   kernel32:KERNEL32.dll
+ 0001:0000796d       GetModuleHandleW           000000014000896d f   kernel32:KERNEL32.dll
+ 0001:00007973       GetProcAddress             0000000140008973 f   kernel32:KERNEL32.dll
+ 0001:00007979       IsDebuggerPresent          0000000140008979 f   kernel32:KERNEL32.dll
+ 0001:0000797f       GetStartupInfoW            000000014000897f f   kernel32:KERNEL32.dll
+ 0001:00007985       QueryPerformanceCounter    0000000140008985 f   kernel32:KERNEL32.dll
+ 0001:0000798b       GetCurrentProcessId        000000014000898b f   kernel32:KERNEL32.dll
+ 0001:00007991       GetCurrentThreadId         0000000140008991 f   kernel32:KERNEL32.dll
+ 0001:00007997       GetSystemTimeAsFileTime    0000000140008997 f   kernel32:KERNEL32.dll
+ 0001:0000799d       InitializeSListHead        000000014000899d f   kernel32:KERNEL32.dll
+ 0001:000079a4       __scrt_stub_for_acrt_initialize 00000001400089a4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000079a4       __acrt_initialize          00000001400089a4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000079a4       __vcrt_initialize          00000001400089a4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000079a8       __acrt_thread_attach       00000001400089a8 f   MSVCRT:ucrt_stubs.obj
+ 0001:000079a8       __scrt_stub_for_acrt_thread_attach 00000001400089a8 f   MSVCRT:ucrt_stubs.obj
+ 0001:000079a8       __vcrt_thread_attach       00000001400089a8 f   MSVCRT:ucrt_stubs.obj
+ 0001:000079ac       __vcrt_thread_detach       00000001400089ac f   MSVCRT:ucrt_stubs.obj
+ 0001:000079ac       __acrt_thread_detach       00000001400089ac f   MSVCRT:ucrt_stubs.obj
+ 0001:000079ac       __scrt_stub_for_acrt_thread_detach 00000001400089ac f   MSVCRT:ucrt_stubs.obj
+ 0001:000079b0       __acrt_uninitialize        00000001400089b0 f   MSVCRT:ucrt_stubs.obj
+ 0001:000079b0       __scrt_stub_for_acrt_uninitialize 00000001400089b0 f   MSVCRT:ucrt_stubs.obj
+ 0001:000079b0       __vcrt_uninitialize        00000001400089b0 f   MSVCRT:ucrt_stubs.obj
+ 0001:000079b4       __vcrt_uninitialize_critical 00000001400089b4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000079b4       __scrt_stub_for_acrt_uninitialize_critical 00000001400089b4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000079b4       __acrt_uninitialize_critical 00000001400089b4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000079b8       _is_c_termination_complete 00000001400089b8 f   MSVCRT:ucrt_stubs.obj
+ 0001:000079b8       __scrt_stub_for_is_c_termination_complete 00000001400089b8 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008b00       _guard_dispatch_icall_nop  0000000140009b00 f   MSVCRT:guard_dispatch.obj
+ 0001:00008b20       _guard_xfg_dispatch_icall_nop 0000000140009b20 f   MSVCRT:guard_xfg_dispatch.obj
+ 0002:00000000       __xc_a                     000000014000d000     MSVCRT:initializers.obj
+ 0002:00000330       __xc_z                     000000014000d330     MSVCRT:initializers.obj
+ 0002:00000440       __xi_a                     000000014000d440     MSVCRT:initializers.obj
+ 0002:00000880       __xi_z                     000000014000d880     MSVCRT:initializers.obj
+ 0002:00000990       __xl_a                     000000014000d990     MSVCRT:tlssup.obj
+ 0002:00000998       __xl_z                     000000014000d998     MSVCRT:tlssup.obj
+ 0002:000009a0       __xp_a                     000000014000d9a0     MSVCRT:initializers.obj
+ 0002:00000ab0       __xp_z                     000000014000dab0     MSVCRT:initializers.obj
+ 0002:00000bc0       __xt_a                     000000014000dbc0     MSVCRT:initializers.obj
+ 0002:00000cd0       __xt_z                     000000014000dcd0     MSVCRT:initializers.obj
+ 0002:00000ee8       ??_C@_0BG@CGLFOPGI@?9?9?9?6WeekendInfo?3?6?4?4?4?6@ 000000014000dee8     csv2ibt.obj
+ 0002:00000f70       __real@403e000000000000    000000014000df70     irsdk_utils.obj
+ 0002:00000f7c       __real@47800000            000000014000df7c     irsdk_utils.obj
+ 0002:000010f8       __real@3c888889            000000014000e0f8     irsdk_csvclient.obj
+ 0002:000010fc       __real@3f800000            000000014000e0fc     irsdk_csvclient.obj
+ 0002:00001100       __real@3fe0000000000000    000000014000e100     irsdk_csvclient.obj
+ 0002:00001110       __xmm@ffffffffffffffffffffffffffffffff 000000014000e110     MSVCRT:utility.obj
+ 0002:00001140       ??_C@_1EC@JIJBPKFM@?$AAa?$AAp?$AAi?$AA?9?$AAm?$AAs?$AA?9?$AAw?$AAi?$AAn?$AA?9?$AAc?$AAo?$AAr?$AAe@ 000000014000e140     MSVCRT:thread_safe_statics.obj
+ 0002:00001190       ??_C@_1BK@MGMFAEKH@?$AAk?$AAe?$AAr?$AAn?$AAe?$AAl?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl@ 000000014000e190     MSVCRT:thread_safe_statics.obj
+ 0002:000011b0       ??_C@_0BJ@JEBJOJFJ@SleepConditionVariableCS@ 000000014000e1b0     MSVCRT:thread_safe_statics.obj
+ 0002:000011d0       ??_C@_0BJ@PGPPEPCC@WakeAllConditionVariable@ 000000014000e1d0     MSVCRT:thread_safe_statics.obj
+ 0002:000011f8       ??_7exception@std@@6B@     000000014000e1f8     MSVCRT:throw_bad_alloc.obj
+ 0002:00001210       ??_C@_0BC@EOODALEL@Unknown?5exception@ 000000014000e210     MSVCRT:throw_bad_alloc.obj
+ 0002:00001230       ??_7bad_alloc@std@@6B@     000000014000e230     MSVCRT:throw_bad_alloc.obj
+ 0002:00001248       ??_C@_0P@GHFPNOJB@bad?5allocation@ 000000014000e248     MSVCRT:throw_bad_alloc.obj
+ 0002:00001268       ??_7bad_array_new_length@std@@6B@ 000000014000e268     MSVCRT:throw_bad_alloc.obj
+ 0002:00001280       ??_C@_0BF@KINCDENJ@bad?5array?5new?5length@ 000000014000e280     MSVCRT:throw_bad_alloc.obj
+ 0002:000012a8       ??_7type_info@@6B@         000000014000e2a8     MSVCRT:std_type_info_static.obj
+ 0002:000012f0       _load_config_used          000000014000e2f0     MSVCRT:loadcfg.obj
+ 0002:00001600       __CastGuardVftablesStart   000000014000e600     MSVCRT:guard_support.obj
+ 0002:00001710       __CastGuardVftablesEnd     000000014000e710     MSVCRT:guard_support.obj
+ 0002:00001820       _tls_used                  000000014000e820     MSVCRT:tlssup.obj
+ 0002:00001950       ??_R4exception@std@@6B@    000000014000e950     MSVCRT:throw_bad_alloc.obj
+ 0002:00001980       ??_R3exception@std@@8      000000014000e980     MSVCRT:throw_bad_alloc.obj
+ 0002:00001998       ??_R2exception@std@@8      000000014000e998     MSVCRT:throw_bad_alloc.obj
+ 0002:000019a8       ??_R1A@?0A@EA@exception@std@@8 000000014000e9a8     MSVCRT:throw_bad_alloc.obj
+ 0002:000019d8       ??_R4bad_alloc@std@@6B@    000000014000e9d8     MSVCRT:throw_bad_alloc.obj
+ 0002:00001a08       ??_R3bad_alloc@std@@8      000000014000ea08     MSVCRT:throw_bad_alloc.obj
+ 0002:00001a20       ??_R2bad_alloc@std@@8      000000014000ea20     MSVCRT:throw_bad_alloc.obj
+ 0002:00001a38       ??_R1A@?0A@EA@bad_alloc@std@@8 000000014000ea38     MSVCRT:throw_bad_alloc.obj
+ 0002:00001a68       ??_R4bad_array_new_length@std@@6B@ 000000014000ea68     MSVCRT:throw_bad_alloc.obj
+ 0002:00001a98       ??_R3bad_array_new_length@std@@8 000000014000ea98     MSVCRT:throw_bad_alloc.obj
+ 0002:00001ab0       ??_R2bad_array_new_length@std@@8 000000014000eab0     MSVCRT:throw_bad_alloc.obj
+ 0002:00001ad8       ??_R1A@?0A@EA@bad_array_new_length@std@@8 000000014000ead8     MSVCRT:throw_bad_alloc.obj
+ 0002:00001b08       ??_R4type_info@@6B@        000000014000eb08     MSVCRT:std_type_info_static.obj
+ 0002:00001b38       ??_R3type_info@@8          000000014000eb38     MSVCRT:std_type_info_static.obj
+ 0002:00001b50       ??_R2type_info@@8          000000014000eb50     MSVCRT:std_type_info_static.obj
+ 0002:00001b60       ??_R1A@?0A@EA@type_info@@8 000000014000eb60     MSVCRT:std_type_info_static.obj
+ 0002:00001e38       __rtc_iaa                  000000014000ee38     MSVCRT:initsect.obj
+ 0002:00001f48       __rtc_izz                  000000014000ef48     MSVCRT:initsect.obj
+ 0002:00002058       __rtc_taa                  000000014000f058     MSVCRT:initsect.obj
+ 0002:00002168       __rtc_tzz                  000000014000f168     MSVCRT:initsect.obj
+ 0002:000029c0       _TI2?AVbad_alloc@std@@     000000014000f9c0     MSVCRT:throw_bad_alloc.obj
+ 0002:000029e0       _CTA2?AVbad_alloc@std@@    000000014000f9e0     MSVCRT:throw_bad_alloc.obj
+ 0002:000029f8       _CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QEAA@AEBV01@@Z24 000000014000f9f8     MSVCRT:throw_bad_alloc.obj
+ 0002:00002a20       _CT??_R0?AVexception@std@@@8??0exception@std@@QEAA@AEBV01@@Z24 000000014000fa20     MSVCRT:throw_bad_alloc.obj
+ 0002:00002a48       _TI3?AVbad_array_new_length@std@@ 000000014000fa48     MSVCRT:throw_bad_alloc.obj
+ 0002:00002a68       _CTA3?AVbad_array_new_length@std@@ 000000014000fa68     MSVCRT:throw_bad_alloc.obj
+ 0002:00002a88       _CT??_R0?AVbad_array_new_length@std@@@8??0bad_array_new_length@std@@QEAA@AEBV01@@Z24 000000014000fa88     MSVCRT:throw_bad_alloc.obj
+ 0003:00000000       ?g_sessionTimeOffset@@3HA  0000000140010000     csv2ibt.obj
+ 0003:00000004       ?g_lapIndexOffset@@3HA     0000000140010004     csv2ibt.obj
+ 0003:00000008       ?g_diskLastLap@@3HA        0000000140010008     csv2ibt.obj
+ 0003:00000014       ?timeOffset@@3HA           0000000140010014     irsdk_csvclient.obj
+ 0003:00000018       ?sessionTimeOffset@@3HA    0000000140010018     irsdk_csvclient.obj
+ 0003:00000020       __scrt_native_dllmain_reason 0000000140010020     MSVCRT:utility.obj
+ 0003:00000030       __security_cookie_complement 0000000140010030     MSVCRT:gs_cookie.obj
+ 0003:00000038       __security_cookie          0000000140010038     MSVCRT:gs_cookie.obj
+ 0003:00000044       _fltused                   0000000140010044     MSVCRT:fltused.obj
+ 0003:00000048       _Init_global_epoch         0000000140010048     MSVCRT:thread_safe_statics.obj
+ 0003:00000050       __isa_available            0000000140010050     MSVCRT:cpu_disp.obj
+ 0003:00000054       __isa_enabled              0000000140010054     MSVCRT:cpu_disp.obj
+ 0003:00000058       __memcpy_nt_iters          0000000140010058     MSVCRT:cpu_disp.obj
+ 0003:00000060       __memset_nt_iters          0000000140010060     MSVCRT:cpu_disp.obj
+ 0003:0000006c       __scrt_default_matherr     000000014001006c     MSVCRT:matherr.obj
+ 0003:00000070       __scrt_ucrt_dll_is_in_use  0000000140010070     MSVCRT:ucrt_stubs.obj
+ 0003:00000180       ??_R0?AVbad_alloc@std@@@8  0000000140010180     MSVCRT:throw_bad_alloc.obj
+ 0003:000001b0       ??_R0?AVexception@std@@@8  00000001400101b0     MSVCRT:throw_bad_alloc.obj
+ 0003:000001e0       ??_R0?AVbad_array_new_length@std@@@8 00000001400101e0     MSVCRT:throw_bad_alloc.obj
+ 0003:00000320       ??_R0?AVtype_info@@@8      0000000140010320     MSVCRT:std_type_info_static.obj
+ 0003:00000450       ?pIBT@@3PEAU_iobuf@@EA     0000000140010450     csv2ibt.obj
+ 0003:00000458       ?g_diskSubHeaderOffset@@3HA 0000000140010458     csv2ibt.obj
+ 0003:00000460       ?g_diskHeader@@3Uirsdk_header@@A 0000000140010460     csv2ibt.obj
+ 0003:000004d0       ?g_diskSubHeader@@3Uirsdk_diskSubHeader@@A 00000001400104d0     csv2ibt.obj
+ 0003:000004f0       ?ick@@3VirsdkCSVClient@@A  00000001400104f0     csv2ibt.obj
+ 0003:00026ba8       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 0000000140036ba8     csv2ibt.obj
+ 0003:00026c04       ?timeCount@@3MA            0000000140036c04     irsdk_csvclient.obj
+ 0003:00026c08       ?hasSessionTime@@3_NA      0000000140036c08     irsdk_csvclient.obj
+ 0003:00026c20       __scrt_current_native_startup_state 0000000140036c20     MSVCRT:utility.obj
+ 0003:00026c28       __scrt_native_startup_lock 0000000140036c28     MSVCRT:utility.obj
+ 0003:00027360       _tls_index                 0000000140037360     MSVCRT:tlssup.obj
+ 0003:00027364       __favor                    0000000140037364     MSVCRT:cpu_disp.obj
+ 0003:00027368       __scrt_debugger_hook_flag  0000000140037368     MSVCRT:utility_desktop.obj
+ 0003:00027370       __castguard_check_failure_os_handled_fptr 0000000140037370     MSVCRT:guard_support.obj
+ 0003:00027380       ?__type_info_root_node@@3U__type_info_node@@A 0000000140037380     MSVCRT:tncleanup.obj
+ 0003:00027398       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 0000000140037398     MSVCRT:default_local_stdio_options.obj
+ 0003:000273a8       __dyn_tls_dtor_callback    00000001400373a8     <common>
+ 0003:000273c0       __dyn_tls_init_callback    00000001400373c0     <common>
+ 0005:00000000       __imp_CloseHandle          0000000140039000     kernel32:KERNEL32.dll
+ 0005:00000008       __imp_WaitForSingleObject  0000000140039008     kernel32:KERNEL32.dll
+ 0005:00000010       __imp_OpenEventA           0000000140039010     kernel32:KERNEL32.dll
+ 0005:00000018       __imp_Sleep                0000000140039018     kernel32:KERNEL32.dll
+ 0005:00000020       __imp_MapViewOfFile        0000000140039020     kernel32:KERNEL32.dll
+ 0005:00000028       __imp_UnmapViewOfFile      0000000140039028     kernel32:KERNEL32.dll
+ 0005:00000030       __imp_OpenFileMappingA     0000000140039030     kernel32:KERNEL32.dll
+ 0005:00000038       __imp_GetSystemTimeAsFileTime 0000000140039038     kernel32:KERNEL32.dll
+ 0005:00000040       __imp_GetCurrentThreadId   0000000140039040     kernel32:KERNEL32.dll
+ 0005:00000048       __imp_GetCurrentProcessId  0000000140039048     kernel32:KERNEL32.dll
+ 0005:00000050       __imp_QueryPerformanceCounter 0000000140039050     kernel32:KERNEL32.dll
+ 0005:00000058       __imp_GetStartupInfoW      0000000140039058     kernel32:KERNEL32.dll
+ 0005:00000060       __imp_IsDebuggerPresent    0000000140039060     kernel32:KERNEL32.dll
+ 0005:00000068       __imp_GetProcAddress       0000000140039068     kernel32:KERNEL32.dll
+ 0005:00000070       __imp_GetModuleHandleW     0000000140039070     kernel32:KERNEL32.dll
+ 0005:00000078       __imp_CreateEventW         0000000140039078     kernel32:KERNEL32.dll
+ 0005:00000080       __imp_WaitForSingleObjectEx 0000000140039080     kernel32:KERNEL32.dll
+ 0005:00000088       __imp_ResetEvent           0000000140039088     kernel32:KERNEL32.dll
+ 0005:00000090       __imp_SetEvent             0000000140039090     kernel32:KERNEL32.dll
+ 0005:00000098       __imp_DeleteCriticalSection 0000000140039098     kernel32:KERNEL32.dll
+ 0005:000000a0       __imp_InitializeCriticalSectionAndSpinCount 00000001400390a0     kernel32:KERNEL32.dll
+ 0005:000000a8       __imp_LeaveCriticalSection 00000001400390a8     kernel32:KERNEL32.dll
+ 0005:000000b0       __imp_EnterCriticalSection 00000001400390b0     kernel32:KERNEL32.dll
+ 0005:000000b8       __imp_IsProcessorFeaturePresent 00000001400390b8     kernel32:KERNEL32.dll
+ 0005:000000c0       __imp_TerminateProcess     00000001400390c0     kernel32:KERNEL32.dll
+ 0005:000000c8       __imp_GetCurrentProcess    00000001400390c8     kernel32:KERNEL32.dll
+ 0005:000000d0       __imp_SetUnhandledExceptionFilter 00000001400390d0     kernel32:KERNEL32.dll
+ 0005:000000d8       __imp_UnhandledExceptionFilter 00000001400390d8     kernel32:KERNEL32.dll
+ 0005:000000e0       __imp_RtlVirtualUnwind     00000001400390e0     kernel32:KERNEL32.dll
+ 0005:000000e8       __imp_RtlLookupFunctionEntry 00000001400390e8     kernel32:KERNEL32.dll
+ 0005:000000f0       __imp_RtlCaptureContext    00000001400390f0     kernel32:KERNEL32.dll
+ 0005:000000f8       __imp_InitializeSListHead  00000001400390f8     kernel32:KERNEL32.dll
+ 0005:00000100       \177KERNEL32_NULL_THUNK_DATA 0000000140039100     kernel32:KERNEL32.dll
+ 0005:00000188       __imp_RegisterWindowMessageA 0000000140039188     user32:USER32.dll
+ 0005:00000190       __imp_SendNotifyMessageA   0000000140039190     user32:USER32.dll
+ 0005:00000198       \177USER32_NULL_THUNK_DATA 0000000140039198     user32:USER32.dll
+ 0005:000001f0       __imp_strchr               00000001400391f0     vcruntime:VCRUNTIME140.dll
+ 0005:000001f8       __imp_memcpy               00000001400391f8     vcruntime:VCRUNTIME140.dll
+ 0005:00000200       __imp_memset               0000000140039200     vcruntime:VCRUNTIME140.dll
+ 0005:00000208       __imp_strrchr              0000000140039208     vcruntime:VCRUNTIME140.dll
+ 0005:00000210       __imp___current_exception_context 0000000140039210     vcruntime:VCRUNTIME140.dll
+ 0005:00000218       __imp___std_type_info_destroy_list 0000000140039218     vcruntime:VCRUNTIME140.dll
+ 0005:00000220       __imp___current_exception  0000000140039220     vcruntime:VCRUNTIME140.dll
+ 0005:00000228       __imp___C_specific_handler 0000000140039228     vcruntime:VCRUNTIME140.dll
+ 0005:00000230       __imp__CxxThrowException   0000000140039230     vcruntime:VCRUNTIME140.dll
+ 0005:00000238       __imp___std_exception_destroy 0000000140039238     vcruntime:VCRUNTIME140.dll
+ 0005:00000240       __imp___std_exception_copy 0000000140039240     vcruntime:VCRUNTIME140.dll
+ 0005:00000248       \177VCRUNTIME140_NULL_THUNK_DATA 0000000140039248     vcruntime:VCRUNTIME140.dll
+ 0005:000002b0       __imp___CxxFrameHandler4   00000001400392b0     vcruntime:VCRUNTIME140_1.dll
+ 0005:000002b8       \177VCRUNTIME140_1_NULL_THUNK_DATA 00000001400392b8     vcruntime:VCRUNTIME140_1.dll
+ 0005:00000310       __imp_getch                0000000140039310     ucrt:api-ms-win-crt-conio-l1-1-0.dll
+ 0005:00000310       __imp__getch               0000000140039310     ucrt:api-ms-win-crt-conio-l1-1-0.dll
+ 0005:00000318       \177api-ms-win-crt-conio-l1-1-0_NULL_THUNK_DATA 0000000140039318     ucrt:api-ms-win-crt-conio-l1-1-0.dll
+ 0005:00000370       __imp_atof                 0000000140039370     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0005:00000378       \177api-ms-win-crt-convert-l1-1-0_NULL_THUNK_DATA 0000000140039378     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0005:000003d0       __imp_free                 00000001400393d0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0005:000003d8       __imp_malloc               00000001400393d8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0005:000003e0       __imp__callnewh            00000001400393e0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0005:000003e8       __imp__set_new_mode        00000001400393e8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0005:000003f0       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400393f0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0005:00000448       __imp__configthreadlocale  0000000140039448     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0005:00000450       \177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 0000000140039450     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0005:000004a8       __imp___setusermatherr     00000001400394a8     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0005:000004b0       \177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400394b0     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0005:00000508       __imp___p___argc           0000000140039508     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000510       __imp___p___argv           0000000140039510     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000518       __imp__c_exit              0000000140039518     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000520       __imp__register_thread_local_exe_atexit_callback 0000000140039520     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000528       __imp__register_onexit_function 0000000140039528     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000530       __imp__crt_at_quick_exit   0000000140039530     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000538       __imp__initialize_onexit_table 0000000140039538     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000540       __imp_exit                 0000000140039540     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000548       __imp__get_initial_narrow_environment 0000000140039548     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000550       __imp__execute_onexit_table 0000000140039550     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000558       __imp__set_app_type        0000000140039558     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000560       __imp__initialize_narrow_environment 0000000140039560     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000568       __imp__configure_narrow_argv 0000000140039568     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000570       __imp__seh_filter_dll      0000000140039570     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000578       __imp__wassert             0000000140039578     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000580       __imp__crt_atexit          0000000140039580     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000588       __imp__cexit               0000000140039588     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000590       __imp__exit                0000000140039590     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000598       __imp__seh_filter_exe      0000000140039598     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:000005a0       __imp__initterm_e          00000001400395a0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:000005a8       __imp__initterm            00000001400395a8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:000005b0       __imp_terminate            00000001400395b0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:000005b8       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400395b8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00000630       __imp___acrt_iob_func      0000000140039630     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0005:00000638       __imp___stdio_common_vfprintf 0000000140039638     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0005:00000640       __imp___stdio_common_vsprintf 0000000140039640     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0005:00000648       __imp_fseek                0000000140039648     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0005:00000650       __imp_fclose               0000000140039650     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0005:00000658       __imp_fopen                0000000140039658     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0005:00000660       __imp_fgets                0000000140039660     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0005:00000668       __imp_ftell                0000000140039668     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0005:00000670       __imp__set_fmode           0000000140039670     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0005:00000678       __imp___p__commode         0000000140039678     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0005:00000680       __imp_fwrite               0000000140039680     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0005:00000688       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 0000000140039688     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0005:000006f0       __imp_isalnum              00000001400396f0     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0005:000006f8       __imp_isalpha              00000001400396f8     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0005:00000700       __imp_strncpy              0000000140039700     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0005:00000708       __imp_strcmp               0000000140039708     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0005:00000710       __imp_strcat               0000000140039710     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0005:00000718       __imp_strlen               0000000140039718     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0005:00000720       __imp_strncmp              0000000140039720     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0005:00000728       \177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 0000000140039728     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0005:00000788       __imp__difftime64          0000000140039788     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0005:00000790       __imp__time64              0000000140039790     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0005:00000798       \177api-ms-win-crt-time-l1-1-0_NULL_THUNK_DATA 0000000140039798     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0005:000007f0       __IMPORT_DESCRIPTOR_KERNEL32 00000001400397f0     kernel32:KERNEL32.dll
+ 0005:00000804       __IMPORT_DESCRIPTOR_USER32 0000000140039804     user32:USER32.dll
+ 0005:00000818       __IMPORT_DESCRIPTOR_VCRUNTIME140 0000000140039818     vcruntime:VCRUNTIME140.dll
+ 0005:0000082c       __IMPORT_DESCRIPTOR_VCRUNTIME140_1 000000014003982c     vcruntime:VCRUNTIME140_1.dll
+ 0005:00000840       __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 0000000140039840     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0005:00000854       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 0000000140039854     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0005:00000868       __IMPORT_DESCRIPTOR_api-ms-win-crt-time-l1-1-0 0000000140039868     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0005:0000087c       __IMPORT_DESCRIPTOR_api-ms-win-crt-convert-l1-1-0 000000014003987c     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0005:00000890       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 0000000140039890     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:000008a4       __IMPORT_DESCRIPTOR_api-ms-win-crt-math-l1-1-0 00000001400398a4     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0005:000008b8       __IMPORT_DESCRIPTOR_api-ms-win-crt-locale-l1-1-0 00000001400398b8     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0005:000008cc       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 00000001400398cc     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0005:000008e0       __IMPORT_DESCRIPTOR_api-ms-win-crt-conio-l1-1-0 00000001400398e0     ucrt:api-ms-win-crt-conio-l1-1-0.dll
+ 0005:000008f4       __NULL_IMPORT_DESCRIPTOR   00000001400398f4     kernel32:KERNEL32.dll
+ 0006:00000000       _tls_start                 000000014003b000     MSVCRT:tlssup.obj
+ 0006:00000104       _Init_thread_epoch         000000014003b104     MSVCRT:thread_safe_statics.obj
+ 0006:00000208       _tls_end                   000000014003b208     MSVCRT:tlssup.obj
+ 0007:00000000       __guard_check_icall_fptr   000000014003c000     MSVCRT:guard_support.obj
+ 0007:00000010       __guard_xfg_check_icall_fptr 000000014003c010     MSVCRT:guard_support.obj
+ 0007:00000020       __guard_dispatch_icall_fptr 000000014003c020     MSVCRT:guard_support.obj
+ 0007:00000030       __guard_xfg_dispatch_icall_fptr 000000014003c030     MSVCRT:guard_support.obj
+ 0007:00000040       __guard_xfg_table_dispatch_icall_fptr 000000014003c040     MSVCRT:guard_support.obj
+
+ entry point at        0001:0000023f
+
+ Static symbols
+
+ 0000:fffc5000       _volmd                     0000000140000000     csv2ibt.obj
+ 0000:fffc5000       _volmd                     0000000140000000     csv2ibt.obj
+ 0000:fffc5000       _volmd                     0000000140000000     irsdk_csvclient.obj
+ 0000:fffc5000       _volmd                     0000000140000000     MSVCRT:cpu_disp.obj
+ 0002:ffff3000       $unwind$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 0000000140000000     MSVCRT:exe_main.obj
+ 0000:fffc5000       __guard_ehcont_?__scrt_common_main_seh@@YAHXZ 0000000140000000     MSVCRT:exe_main.obj
+ 0000:fffc5000       __guard_fids_?pre_c_initialization@@YAHXZ 0000000140000000     MSVCRT:exe_main.obj
+ 0000:fffc5000       __guard_fids__             0000000140000000     MSVCRT:exe_main.obj
+ 0000:fffc5000       _volmd                     0000000140000000     MSVCRT:gs_report.obj
+ 0000:fffc5000       _volmd                     0000000140000000     MSVCRT:gs_report.obj
+ 0000:fffc5000       _volmd                     0000000140000000     MSVCRT:gs_report.obj
+ 0000:fffc5000       __guard_fids__             0000000140000000     MSVCRT:guard_support.obj
+ 0000:fffc5000       __guard_fids__             0000000140000000     MSVCRT:guard_support.obj
+ 0000:fffc5000       __guard_fids__guard_icall_checks_enforced 0000000140000000     MSVCRT:guard_support.obj
+ 0000:fffc5000       _volmd                     0000000140000000     MSVCRT:guard_support.obj
+ 0000:fffc5000       _volmd                     0000000140000000     MSVCRT:guard_support.obj
+ 0000:fffc5000       _volmd                     0000000140000000     MSVCRT:guard_support.obj
+ 0000:fffc5000       _volmd                     0000000140000000     MSVCRT:guard_support.obj
+ 0000:fffc5000       _volmd                     0000000140000000     MSVCRT:guard_support.obj
+ 0000:fffc5000       __guard_fids__             0000000140000000     MSVCRT:std_type_info_static.obj
+ 0000:fffc5000       __guard_fids_?__scrt_initialize_thread_safe_statics@@YAHXZ 0000000140000000     MSVCRT:thread_safe_statics.obj
+ 0000:fffc5000       __guard_fids__             0000000140000000     MSVCRT:thread_safe_statics.obj
+ 0000:fffc5000       __guard_fids__             0000000140000000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffc5000       __guard_fids__             0000000140000000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffc5000       __guard_fids__             0000000140000000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffc5000       __guard_ehcont___scrt_is_nonwritable_in_current_image 0000000140000000     MSVCRT:utility.obj
+ 0000:fffc5000       _volmd                     0000000140000000     MSVCRT:utility.obj
+ 0000:fffc5000       _volmd                     0000000140000000     MSVCRT:utility.obj
+ 0000:fffc5000       _volmd                     0000000140000000     MSVCRT:utility.obj
+ 0000:fffc5000       __guard_fids___scrt_set_unhandled_exception_filter 0000000140000000     MSVCRT:utility_desktop.obj
+ 0000:fffc5000       _volmd                     0000000140000000     MSVCRT:utility_desktop.obj
+ 0000:fffc2000       .debug$S                   0000000140000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     vcruntime:VCRUNTIME140_1.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-conio-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     kernel32:KERNEL32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     user32:USER32.dll
+ 0000:fffc2000       .debug$S                   0000000140000000     user32:USER32.dll
+ 0000:fffc5004       __guard_fids__             0000000140000004     MSVCRT:exe_main.obj
+ 0000:fffc5008       __guard_fids__             0000000140000008     MSVCRT:exe_main.obj
+ 0000:fffc500c       _volmd                     000000014000000c     irsdk_csvclient.obj
+ 0001:00000730       ??__Eick@@YAXXZ            0000000140001730 f   csv2ibt.obj
+ 0001:00001e40       time                       0000000140002e40 f   csv2ibt.obj
+ 0001:00002c00       difftime                   0000000140003c00 f   irsdk_utils.obj
+ 0001:00002c30       time                       0000000140003c30 f   irsdk_utils.obj
+ 0001:000056fc       ?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z 00000001400066fc f   MSVCRT:utility.obj
+ 0001:00005760       ?is_potentially_valid_image_base@@YA_NQEAX@Z 0000000140006760 f   MSVCRT:utility.obj
+ 0001:00005fa4       capture_current_context    0000000140006fa4 f   MSVCRT:gs_report.obj
+ 0001:0000602c       capture_previous_context   000000014000702c f   MSVCRT:gs_report.obj
+ 0001:00006160       $$000000                   0000000140007160     MSVCRT:amdsecgs.obj
+ 0001:0000619c       ?__scrt_initialize_thread_safe_statics@@YAHXZ 000000014000719c f   MSVCRT:thread_safe_statics.obj
+ 0001:000062a0       ?__scrt_initialize_thread_safe_statics_platform_specific@@YAXXZ 00000001400072a0 f   MSVCRT:thread_safe_statics.obj
+ 0001:00006384       ?__scrt_uninitialize_thread_safe_statics@@YAXXZ 0000000140007384 f   MSVCRT:thread_safe_statics.obj
+ 0001:00006600       $$000000                   0000000140007600     MSVCRT:chkstk.obj
+ 0001:00006678       ?pre_c_initialization@@YAHXZ 0000000140007678 f   MSVCRT:exe_main.obj
+ 0001:0000675c       ?post_pgo_initialization@@YAHXZ 000000014000775c f   MSVCRT:exe_main.obj
+ 0001:00006770       ?pre_cpp_initialization@@YAXXZ 0000000140007770 f   MSVCRT:exe_main.obj
+ 0001:00006790       ?__scrt_common_main@@YAHXZ 0000000140007790 f   MSVCRT:exe_main.obj
+ 0001:000067a8       ?__scrt_common_main_seh@@YAHXZ 00000001400077a8 f   MSVCRT:exe_main.obj
+ 0001:00006984       ?invoke_main@@YAHXZ        0000000140007984 f   MSVCRT:exe_main.obj
+ 0001:00006ff0       __castguard_compat_check   0000000140007ff0 f   MSVCRT:guard_support.obj
+ 0001:00007110       __castguard_slow_path_compat_check 0000000140008110 f   MSVCRT:guard_support.obj
+ 0001:000071a4       __get_entropy              00000001400081a4 f   MSVCRT:gs_support.obj
+ 0001:00008af0       $$000000                   0000000140009af0     MSVCRT:guard_dispatch.obj
+ 0001:00008b10       $$000000                   0000000140009b10     MSVCRT:guard_xfg_dispatch.obj
+ 0001:00009b30       ?dtor$0@?0??irsdk_broadcastMsg@@YAXW4irsdk_BroadcastMsg@@HH@Z@4HA 000000014000ab30 f   irsdk_utils.obj
+ 0001:00009b51       __scrt_is_nonwritable_in_current_image$filt$0 000000014000ab51 f   MSVCRT:utility.obj
+ 0001:00009b6f       ?filt$0@?0??__scrt_common_main_seh@@YAHXZ@4HA 000000014000ab6f f   MSVCRT:exe_main.obj
+ 0001:0000aba0       ??__Fick@@YAXXZ            000000014000bba0 f   csv2ibt.obj
+ 0002:00000110       ?pre_cpp_initializer@@3P6AXXZEA 000000014000d110     MSVCRT:exe_main.obj
+ 0002:00000220       ?ick$initializer$@@3P6AXXZEA 000000014000d220     csv2ibt.obj
+ 0002:00000550       ?pre_c_initializer@@3P6AHXZEA 000000014000d550     MSVCRT:exe_main.obj
+ 0002:00000660       ?post_pgo_initializer@@3P6AHXZEA 000000014000d660     MSVCRT:exe_main.obj
+ 0002:00000770       ?__scrt_initialize_tss_var@@3P6AHXZEA 000000014000d770     MSVCRT:thread_safe_statics.obj
+ 0002:00000de0       ?g_sessionTimeString@@3QBDB 000000014000dde0     csv2ibt.obj
+ 0002:00000dec       ?g_lapIndexString@@3QBDB   000000014000ddec     csv2ibt.obj
+ 0002:00000df0       $SG87145                   000000014000ddf0     csv2ibt.obj
+ 0002:00000df4       $SG87149                   000000014000ddf4     csv2ibt.obj
+ 0002:00000dfc       $SG87151                   000000014000ddfc     csv2ibt.obj
+ 0002:00000e00       $SG87150                   000000014000de00     csv2ibt.obj
+ 0002:00000e0c       $SG87156                   000000014000de0c     csv2ibt.obj
+ 0002:00000e10       $SG87157                   000000014000de10     csv2ibt.obj
+ 0002:00000e14       $SG87195                   000000014000de14     csv2ibt.obj
+ 0002:00000e18       $SG87168                   000000014000de18     csv2ibt.obj
+ 0002:00000e40       $SG87209                   000000014000de40     csv2ibt.obj
+ 0002:00000e78       $SG87212                   000000014000de78     csv2ibt.obj
+ 0002:00000e90       $SG87215                   000000014000de90     csv2ibt.obj
+ 0002:00000ea0       $SG87216                   000000014000dea0     csv2ibt.obj
+ 0002:00000f08       ?IRSDK_DATAVALIDEVENTNAME@@3QBDB 000000014000df08     irsdk_utils.obj
+ 0002:00000f28       ?IRSDK_MEMMAPFILENAME@@3QBDB 000000014000df28     irsdk_utils.obj
+ 0002:00000f48       ?IRSDK_BROADCASTMSGNAME@@3QBDB 000000014000df48     irsdk_utils.obj
+ 0002:00000f80       $SG9381                    000000014000df80     irsdk_csvclient.obj
+ 0002:00000f88       $SG9393                    000000014000df88     irsdk_csvclient.obj
+ 0002:00000f94       $SG9395                    000000014000df94     irsdk_csvclient.obj
+ 0002:00000f9c       $SG9509                    000000014000df9c     irsdk_csvclient.obj
+ 0002:00000fa0       $SG9397                    000000014000dfa0     irsdk_csvclient.obj
+ 0002:00000fb0       $SG9460                    000000014000dfb0     irsdk_csvclient.obj
+ 0002:00001050       $SG9461                    000000014000e050     irsdk_csvclient.obj
+ 0002:0000105c       $SG9511                    000000014000e05c     irsdk_csvclient.obj
+ 0002:00001060       $SG9516                    000000014000e060     irsdk_csvclient.obj
+ 0002:00001068       $SG9517                    000000014000e068     irsdk_csvclient.obj
+ 0002:00001070       $SG9518                    000000014000e070     irsdk_csvclient.obj
+ 0002:00001078       $SG9519                    000000014000e078     irsdk_csvclient.obj
+ 0002:00001080       $SG9520                    000000014000e080     irsdk_csvclient.obj
+ 0002:00001088       $SG9521                    000000014000e088     irsdk_csvclient.obj
+ 0002:00001090       $SG9522                    000000014000e090     irsdk_csvclient.obj
+ 0002:0000109c       $SG9524                    000000014000e09c     irsdk_csvclient.obj
+ 0002:000010a8       $SG9523                    000000014000e0a8     irsdk_csvclient.obj
+ 0002:000010b4       $SG9525                    000000014000e0b4     irsdk_csvclient.obj
+ 0002:00001128       GS_ExceptionPointers       000000014000e128     MSVCRT:gs_report.obj
+ 0002:00002278       $unwind$?parseYaml@@YA_NPEBD0PEAPEBDPEAH@Z 000000014000f278     yaml_parser.obj
+ 0002:00002280       $unwind$?strrchr@@YAPEADQEADH@Z 000000014000f280     csv2ibt.obj
+ 0002:00002288       $unwind$_vfprintf_l        000000014000f288     csv2ibt.obj
+ 0002:00002290       $unwind$printf             000000014000f290     csv2ibt.obj
+ 0002:00002298       $unwind$_vsnprintf_l       000000014000f298     csv2ibt.obj
+ 0002:000022a0       $unwind$_vsnprintf         000000014000f2a0     csv2ibt.obj
+ 0002:000022a8       $unwind$_snprintf          000000014000f2a8     csv2ibt.obj
+ 0002:000022b0       $unwind$time               000000014000f2b0     csv2ibt.obj
+ 0002:000022b8       $unwind$?openUniqueFile@@YAPEAU_iobuf@@PEBD0_N@Z 000000014000f2b8     csv2ibt.obj
+ 0002:000022cc       $unwind$?logHeaderToIBT@@YAXPEAVirsdkCSVClient@@PEAU_iobuf@@@Z 000000014000f2cc     csv2ibt.obj
+ 0002:000022d4       $unwind$?logDataToIBT@@YAXPEAVirsdkCSVClient@@PEAU_iobuf@@@Z 000000014000f2d4     csv2ibt.obj
+ 0002:000022dc       $unwind$?logCloseIBT@@YAXPEAU_iobuf@@@Z 000000014000f2dc     csv2ibt.obj
+ 0002:000022e4       $unwind$?init@@YA_NPEAD@Z  000000014000f2e4     csv2ibt.obj
+ 0002:000022ec       $unwind$?process@@YAXXZ    000000014000f2ec     csv2ibt.obj
+ 0002:000022f4       $unwind$?shutdown@@YAXXZ   000000014000f2f4     csv2ibt.obj
+ 0002:000022fc       $unwind$main               000000014000f2fc     csv2ibt.obj
+ 0002:0000230c       $unwind$??0irsdkCSVClient@@QEAA@XZ 000000014000f30c     csv2ibt.obj
+ 0002:00002324       $unwind$??1irsdkCSVClient@@QEAA@XZ 000000014000f324     csv2ibt.obj
+ 0002:00002335       $cppxdata$??1irsdkCSVClient@@QEAA@XZ 000000014000f335     csv2ibt.obj
+ 0002:0000233a       $ip2state$??1irsdkCSVClient@@QEAA@XZ 000000014000f33a     csv2ibt.obj
+ 0002:00002340       $unwind$??__Eick@@YAXXZ    000000014000f340     csv2ibt.obj
+ 0002:00002348       $unwind$??__Fick@@YAXXZ    000000014000f348     csv2ibt.obj
+ 0002:00002350       $unwind$difftime           000000014000f350     irsdk_utils.obj
+ 0002:00002358       $unwind$time               000000014000f358     irsdk_utils.obj
+ 0002:00002360       $unwind$?irsdk_startup@@YA_NXZ 000000014000f360     irsdk_utils.obj
+ 0002:00002368       $unwind$?irsdk_shutdown@@YAXXZ 000000014000f368     irsdk_utils.obj
+ 0002:00002370       $unwind$?irsdk_getNewData@@YA_NPEAD@Z 000000014000f370     irsdk_utils.obj
+ 0002:00002378       $unwind$?irsdk_waitForDataReady@@YA_NHPEAD@Z 000000014000f378     irsdk_utils.obj
+ 0002:00002380       $unwind$?irsdk_isConnected@@YA_NXZ 000000014000f380     irsdk_utils.obj
+ 0002:00002388       $unwind$?irsdk_varNameToIndex@@YAHPEBD@Z 000000014000f388     irsdk_utils.obj
+ 0002:00002390       $unwind$?irsdk_varNameToOffset@@YAHPEBD@Z 000000014000f390     irsdk_utils.obj
+ 0002:00002398       $unwind$?irsdk_broadcastMsg@@YAXW4irsdk_BroadcastMsg@@HHH@Z 000000014000f398     irsdk_utils.obj
+ 0002:000023a0       $unwind$?irsdk_broadcastMsg@@YAXW4irsdk_BroadcastMsg@@HH@Z 000000014000f3a0     irsdk_utils.obj
+ 0002:000023b0       $cppxdata$?irsdk_broadcastMsg@@YAXW4irsdk_BroadcastMsg@@HH@Z 000000014000f3b0     irsdk_utils.obj
+ 0002:000023b9       $stateUnwindMap$?irsdk_broadcastMsg@@YAXW4irsdk_BroadcastMsg@@HH@Z 000000014000f3b9     irsdk_utils.obj
+ 0002:000023bf       $ip2state$?irsdk_broadcastMsg@@YAXW4irsdk_BroadcastMsg@@HH@Z 000000014000f3bf     irsdk_utils.obj
+ 0002:000023c8       $unwind$?dtor$0@?0??irsdk_broadcastMsg@@YAXW4irsdk_BroadcastMsg@@HH@Z@4HA 000000014000f3c8     irsdk_utils.obj
+ 0002:000023d0       $unwind$?irsdk_broadcastMsg@@YAXW4irsdk_BroadcastMsg@@HM@Z 000000014000f3d0     irsdk_utils.obj
+ 0002:000023d8       $unwind$?irsdk_padCarNum@@YAHHH@Z 000000014000f3d8     irsdk_utils.obj
+ 0002:000023e0       $unwind$?irsdk_getBroadcastMsgID@@YAIXZ 000000014000f3e0     irsdk_utils.obj
+ 0002:000023f8       $unwind$?strchr@@YAPEADQEADH@Z 000000014000f3f8     irsdk_csvclient.obj
+ 0002:00002400       $unwind$?openFile@irsdkCSVClient@@QEAA_NPEBD@Z 000000014000f400     irsdk_csvclient.obj
+ 0002:00002410       $unwind$?closeFile@irsdkCSVClient@@QEAAXXZ 000000014000f410     irsdk_csvclient.obj
+ 0002:00002418       $unwind$?getNextData@irsdkCSVClient@@QEAA_NXZ 000000014000f418     irsdk_csvclient.obj
+ 0002:00002428       $unwind$?getVarIdx@irsdkCSVClient@@QEAAHPEBD@Z 000000014000f428     irsdk_csvclient.obj
+ 0002:00002430       $unwind$?getVarFloat@irsdkCSVClient@@QEAAMH@Z 000000014000f430     irsdk_csvclient.obj
+ 0002:00002438       $unwind$?parseDataLine@irsdkCSVClient@@IEAA_NPEAD@Z 000000014000f438     irsdk_csvclient.obj
+ 0002:00002440       $unwind$?parceNameAndUnit@irsdkCSVClient@@IEAAXPEBDAEAUirsdk_varHeader@@AEAH@Z 000000014000f440     irsdk_csvclient.obj
+ 0002:00002448       $unwind$?getLineType@irsdkCSVClient@@IEAA?AW4line_type@1@PEBDAEA_N11111@Z 000000014000f448     irsdk_csvclient.obj
+ 0002:00002450       $unwind$?stripEnds@irsdkCSVClient@@IEAAPEADPEAD@Z 000000014000f450     irsdk_csvclient.obj
+ 0002:00002458       $unwind$?getNextElement@irsdkCSVClient@@IEAAPEADPEAD@Z 000000014000f458     irsdk_csvclient.obj
+ 0002:00002460       $unwind$?strToFloat@irsdkCSVClient@@IEAAMPEBD@Z 000000014000f460     irsdk_csvclient.obj
+ 0002:00002474       $unwind$atexit             000000014000f474     MSVCRT:utility.obj
+ 0002:0000247c       $unwind$_onexit            000000014000f47c     MSVCRT:utility.obj
+ 0002:00002484       $unwind$__scrt_is_nonwritable_in_current_image 000000014000f484     MSVCRT:utility.obj
+ 0002:000024a8       $unwind$__scrt_is_nonwritable_in_current_image$filt$0 000000014000f4a8     MSVCRT:utility.obj
+ 0002:000024b0       $unwind$__scrt_acquire_startup_lock 000000014000f4b0     MSVCRT:utility.obj
+ 0002:000024b8       $unwind$__scrt_release_startup_lock 000000014000f4b8     MSVCRT:utility.obj
+ 0002:000024c0       $unwind$__scrt_initialize_crt 000000014000f4c0     MSVCRT:utility.obj
+ 0002:000024c8       $unwind$__scrt_uninitialize_crt 000000014000f4c8     MSVCRT:utility.obj
+ 0002:000024d0       $unwind$__scrt_initialize_onexit_tables 000000014000f4d0     MSVCRT:utility.obj
+ 0002:000024d8       $unwind$__scrt_dllmain_exception_filter 000000014000f4d8     MSVCRT:utility.obj
+ 0002:000024f0       $unwind$__scrt_dllmain_before_initialize_c 000000014000f4f0     MSVCRT:utility.obj
+ 0002:000024f8       $unwind$__scrt_dllmain_after_initialize_c 000000014000f4f8     MSVCRT:utility.obj
+ 0002:00002500       $unwind$__scrt_dllmain_uninitialize_c 000000014000f500     MSVCRT:utility.obj
+ 0002:00002508       $unwind$__scrt_dllmain_uninitialize_critical 000000014000f508     MSVCRT:utility.obj
+ 0002:00002510       $unwind$__scrt_dllmain_crt_thread_attach 000000014000f510     MSVCRT:utility.obj
+ 0002:00002518       $unwind$__scrt_dllmain_crt_thread_detach 000000014000f518     MSVCRT:utility.obj
+ 0002:00002520       $unwind$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 000000014000f520     MSVCRT:utility.obj
+ 0002:00002528       $unwind$__report_securityfailure 000000014000f528     MSVCRT:gs_report.obj
+ 0002:00002530       $unwind$__report_securityfailureEx 000000014000f530     MSVCRT:gs_report.obj
+ 0002:00002538       $unwind$__report_rangecheckfailure 000000014000f538     MSVCRT:gs_report.obj
+ 0002:00002540       $unwind$__report_gsfailure 000000014000f540     MSVCRT:gs_report.obj
+ 0002:00002548       $unwind$capture_current_context 000000014000f548     MSVCRT:gs_report.obj
+ 0002:00002558       $unwind$capture_previous_context 000000014000f558     MSVCRT:gs_report.obj
+ 0002:00002568       $unwind$__raise_securityfailure 000000014000f568     MSVCRT:gs_report.obj
+ 0002:00002570       $unwind$__GSHandlerCheckCommon 000000014000f570     MSVCRT:gshandler.obj
+ 0002:00002578       $unwind$__GSHandlerCheck   000000014000f578     MSVCRT:gshandler.obj
+ 0002:00002580       $xdatasym                  000000014000f580     MSVCRT:amdsecgs.obj
+ 0002:00002584       $unwind$_Init_thread_header 000000014000f584     MSVCRT:thread_safe_statics.obj
+ 0002:0000258c       $unwind$_Init_thread_abort 000000014000f58c     MSVCRT:thread_safe_statics.obj
+ 0002:00002594       $unwind$_Init_thread_footer 000000014000f594     MSVCRT:thread_safe_statics.obj
+ 0002:0000259c       $unwind$_Init_thread_wait  000000014000f59c     MSVCRT:thread_safe_statics.obj
+ 0002:000025a4       $unwind$_Init_thread_notify 000000014000f5a4     MSVCRT:thread_safe_statics.obj
+ 0002:000025ac       $unwind$?__scrt_initialize_thread_safe_statics_platform_specific@@YAXXZ 000000014000f5ac     MSVCRT:thread_safe_statics.obj
+ 0002:000025bc       $unwind$?__scrt_uninitialize_thread_safe_statics@@YAXXZ 000000014000f5bc     MSVCRT:thread_safe_statics.obj
+ 0002:000025c4       $unwind$?__scrt_initialize_thread_safe_statics@@YAHXZ 000000014000f5c4     MSVCRT:thread_safe_statics.obj
+ 0002:000025d8       $xdatasym                  000000014000f5d8     MSVCRT:chkstk.obj
+ 0002:000025e0       $unwind$?set_fmode@__scrt_file_policy@@SAXXZ 000000014000f5e0     MSVCRT:exe_main.obj
+ 0002:000025e8       $unwind$?set_commode@__scrt_file_policy@@SAXXZ 000000014000f5e8     MSVCRT:exe_main.obj
+ 0002:000025f0       $unwind$?invoke_main@@YAHXZ 000000014000f5f0     MSVCRT:exe_main.obj
+ 0002:00002600       $unwind$?pre_c_initialization@@YAHXZ 000000014000f600     MSVCRT:exe_main.obj
+ 0002:00002608       $unwind$?post_pgo_initialization@@YAHXZ 000000014000f608     MSVCRT:exe_main.obj
+ 0002:00002610       $unwind$?pre_cpp_initialization@@YAXXZ 000000014000f610     MSVCRT:exe_main.obj
+ 0002:00002618       $unwind$?__scrt_common_main_seh@@YAHXZ 000000014000f618     MSVCRT:exe_main.obj
+ 0002:00002658       $unwind$?filt$0@?0??__scrt_common_main_seh@@YAHXZ@4HA 000000014000f658     MSVCRT:exe_main.obj
+ 0002:00002660       $unwind$?__scrt_common_main@@YAHXZ 000000014000f660     MSVCRT:exe_main.obj
+ 0002:00002668       $unwind$mainCRTStartup     000000014000f668     MSVCRT:exe_main.obj
+ 0002:00002670       $unwind$__isa_available_init 000000014000f670     MSVCRT:cpu_disp.obj
+ 0002:00002684       $unwind$__scrt_get_show_window_mode 000000014000f684     MSVCRT:utility_desktop.obj
+ 0002:0000268c       $unwind$__scrt_is_managed_app 000000014000f68c     MSVCRT:utility_desktop.obj
+ 0002:00002694       $unwind$__scrt_fastfail    000000014000f694     MSVCRT:utility_desktop.obj
+ 0002:000026a8       $unwind$__scrt_unhandled_exception_filter 000000014000f6a8     MSVCRT:utility_desktop.obj
+ 0002:000026b8       $unwind$__castguard_check_failure_os_handled 000000014000f6b8     MSVCRT:guard_support.obj
+ 0002:000026c0       $unwind$__castguard_slow_path_check_os_handled 000000014000f6c0     MSVCRT:guard_support.obj
+ 0002:000026c8       $unwind$??2@YAPEAX_K@Z     000000014000f6c8     MSVCRT:new_scalar.obj
+ 0002:000026d0       $unwind$__security_init_cookie 000000014000f6d0     MSVCRT:gs_support.obj
+ 0002:000026e0       $unwind$__get_entropy      000000014000f6e0     MSVCRT:gs_support.obj
+ 0002:000026e8       $unwind$__scrt_initialize_default_local_stdio_options 000000014000f6e8     MSVCRT:default_local_stdio_options.obj
+ 0002:000026f0       $unwind$_RTC_Initialize    000000014000f6f0     MSVCRT:initsect.obj
+ 0002:00002700       $unwind$_RTC_Terminate     000000014000f700     MSVCRT:initsect.obj
+ 0002:00002710       $xdatasym                  000000014000f710     MSVCRT:guard_dispatch.obj
+ 0002:00002718       $xdatasym                  000000014000f718     MSVCRT:guard_xfg_dispatch.obj
+ 0002:0000271c       $unwind$??0exception@std@@QEAA@AEBV01@@Z 000000014000f71c     MSVCRT:throw_bad_alloc.obj
+ 0002:00002724       $unwind$??_Gexception@std@@UEAAPEAXI@Z 000000014000f724     MSVCRT:throw_bad_alloc.obj
+ 0002:00002734       $unwind$??0bad_alloc@std@@QEAA@AEBV01@@Z 000000014000f734     MSVCRT:throw_bad_alloc.obj
+ 0002:0000273c       $unwind$??_Gbad_alloc@std@@UEAAPEAXI@Z 000000014000f73c     MSVCRT:throw_bad_alloc.obj
+ 0002:0000274c       $unwind$??0bad_array_new_length@std@@QEAA@AEBV01@@Z 000000014000f74c     MSVCRT:throw_bad_alloc.obj
+ 0002:00002754       $unwind$??_Gbad_array_new_length@std@@UEAAPEAXI@Z 000000014000f754     MSVCRT:throw_bad_alloc.obj
+ 0002:00002764       $unwind$?__scrt_throw_std_bad_alloc@@YAXXZ 000000014000f764     MSVCRT:throw_bad_alloc.obj
+ 0002:0000276c       $unwind$?__scrt_throw_std_bad_array_new_length@@YAXXZ 000000014000f76c     MSVCRT:throw_bad_alloc.obj
+ 0002:00002774       $unwind$??_Gtype_info@@UEAAPEAXI@Z 000000014000f774     MSVCRT:std_type_info_static.obj
+ 0003:00000010       ?lastTickCount@@3HA        0000000140010010     irsdk_utils.obj
+ 0003:00026bb8       ?hDataValidEvent@@3PEAXEA  0000000140036bb8     irsdk_utils.obj
+ 0003:00026bc0       ?hMemMapFile@@3PEAXEA      0000000140036bc0     irsdk_utils.obj
+ 0003:00026bc8       ?pSharedMem@@3PEBDEB       0000000140036bc8     irsdk_utils.obj
+ 0003:00026bd0       ?pHeader@@3PEBUirsdk_header@@EB 0000000140036bd0     irsdk_utils.obj
+ 0003:00026bd8       ?isInitialized@@3_NA       0000000140036bd8     irsdk_utils.obj
+ 0003:00026be0       ?lastValidTime@@3_JA       0000000140036be0     irsdk_utils.obj
+ 0003:00026bf4       ?msgId@?1??irsdk_getBroadcastMsgID@@YAIXZ@4IA 0000000140036bf4     irsdk_utils.obj
+ 0003:00026bf8       ?$TSS0@?1??irsdk_getBroadcastMsgID@@YAIXZ@4HA 0000000140036bf8     irsdk_utils.obj
+ 0003:00026bfc       ?msgId@?1??irsdk_broadcastMsg@@YAXW4irsdk_BroadcastMsg@@HH@Z@4IA 0000000140036bfc     irsdk_utils.obj
+ 0003:00026c00       ?$TSS0@?1??irsdk_broadcastMsg@@YAXW4irsdk_BroadcastMsg@@HH@Z@4HA 0000000140036c00     irsdk_utils.obj
+ 0003:00026c10       ?str@?1??getNextElement@irsdkCSVClient@@IEAAPEADPEAD@Z@4PEADEA 0000000140036c10     irsdk_csvclient.obj
+ 0003:00026c30       ?is_initialized_as_dll@@3_NA 0000000140036c30     MSVCRT:utility.obj
+ 0003:00026c31       ?module_local_atexit_table_initialized@@3_NA 0000000140036c31     MSVCRT:utility.obj
+ 0003:00026c38       ?module_local_atexit_table@@3U_onexit_table_t@@A 0000000140036c38     MSVCRT:utility.obj
+ 0003:00026c50       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 0000000140036c50     MSVCRT:utility.obj
+ 0003:00026c80       GS_ExceptionRecord         0000000140036c80     MSVCRT:gs_report.obj
+ 0003:00026d20       GS_ContextRecord           0000000140036d20     MSVCRT:gs_report.obj
+ 0003:00027308       ?g_tss_cv@@3U_RTL_CONDITION_VARIABLE@@A 0000000140037308     MSVCRT:thread_safe_statics.obj
+ 0003:00027310       ?g_tss_event@@3PEAXEA      0000000140037310     MSVCRT:thread_safe_statics.obj
+ 0003:00027318       ?g_tss_mutex@@3U_RTL_CRITICAL_SECTION@@A 0000000140037318     MSVCRT:thread_safe_statics.obj
+ 0003:00027340       ?g_sleep_condition_variable_cs@@3P6AHPEAU_RTL_CONDITION_VARIABLE@@PEAU_RTL_CRITICAL_SECTION@@K@ZEA 0000000140037340     MSVCRT:thread_safe_statics.obj
+ 0003:00027348       ?g_wake_all_condition_variable@@3P6AXPEAU_RTL_CONDITION_VARIABLE@@@ZEA 0000000140037348     MSVCRT:thread_safe_statics.obj
+ 0005:00001168       .idata$6                   000000014003a168     kernel32:KERNEL32.dll
+ 0005:000011a6       .idata$6                   000000014003a1a6     user32:USER32.dll
+ 0005:000012a4       .idata$6                   000000014003a2a4     vcruntime:VCRUNTIME140.dll
+ 0005:000012b6       .idata$6                   000000014003a2b6     vcruntime:VCRUNTIME140_1.dll
+ 0005:000015d0       .idata$6                   000000014003a5d0     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0005:000015f2       .idata$6                   000000014003a5f2     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0005:00001612       .idata$6                   000000014003a612     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0005:00001632       .idata$6                   000000014003a632     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0005:00001654       .idata$6                   000000014003a654     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0005:00001676       .idata$6                   000000014003a676     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0005:00001696       .idata$6                   000000014003a696     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0005:000016b8       .idata$6                   000000014003a6b8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0005:000016d8       .idata$6                   000000014003a6d8     ucrt:api-ms-win-crt-conio-l1-1-0.dll
+ 0008:00000170       $R000000                   000000014003d170     * linker generated manifest res *

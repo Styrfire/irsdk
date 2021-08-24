@@ -1,0 +1,6 @@
+﻿  yaml_parser.cpp
+  csv2ibt.cpp
+  irsdk_utils.cpp
+  irsdk_csvclient.cpp
+  Generating Code...
+  irsdk_csv2ibt.vcxproj -> C:\Users\g_n_r\source\repos\irsdk 1.15\irsdk\irsdk_csv2ibt\x64\Debug\irsdk_csv2ibt.exe
